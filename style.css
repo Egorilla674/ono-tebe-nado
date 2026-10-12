@@ -1,0 +1,109 @@
+* {
+  font-family:'Raleway', sans-serif;
+  font-weight: 100;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  
+}
+body {
+  flex-direction: column; 
+}
+main {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+
+}
+
+.hero-block {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 100px;
+  text-transform: Uppercase;
+
+}
+
+
+h1 {
+  
+  font-weight: 700;
+  font-style: bold;
+  font-size: 40px;
+  text-transform: Uppercase;
+
+}
+
+h2 {
+  font-weight: 700;
+  font-style:bold;
+  font-size: 22px;
+  line-height: 120%;
+}
+h3 {
+  font-weight: 700;
+  font-style:bold;
+  font-size: 22px;
+  line-height: 120%; 
+}
+h4 {
+  font-weight: 700;
+  font-style:bold;
+  font-size: 22px;
+  line-height: 120%;
+}
+h5 {
+  font-weight: 700;
+  font-style:bold;
+  font-size: 22px;
+  line-height: 120%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-list {
+  display: flex;
+  align-items:center;
+  gap: 30px;
+
+}
+.nav-list-item-underlined {
+  
+  text-decoration: underline;
+
+
+}
+nav {
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+  
+
+}
+.adress-list {
+  display: flex;
+  align-items: center;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.menu-list {
+
+}
+.menu-list-item-underline {
+  text-decoration: underline;
+
+}
+.social-list{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
