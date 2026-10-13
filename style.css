@@ -6,23 +6,19 @@
   box-sizing: border-box;
   
 }
-body {
-  flex-direction: column; 
-}
+
 main {
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
 
 }
-
-.lots-block ul {
-  display:flex;
-  justify-content: space-between;
+.lots-block {
+  display: flex;
+  flex-direction: column;
 }
-
-.lots-block-title {
+.lots-block title {
   text-decoration: underline;
 }
 
@@ -30,7 +26,7 @@ h1 {
   
   font-weight: 700;
   font-size: 40px;
-  text-transform: Uppercase;
+  text-transform: uppercase;
 
 }
 
