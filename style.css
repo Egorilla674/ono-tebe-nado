@@ -10,16 +10,31 @@
 
 main {
   display: flex;
+  
 }
 .main-theme {
   display: flex;
   flex-direction: column;
 }
 .hero-block {
-  display: flex;
-  width: 10%;
+ position: relative;
+ width: 100%;
+ display: inline-block;
+
+}
+.hero-block-image {
+  display: block;
+  width: 100%;
+  height: auto;
   
-  
+}
+.hero-block-text {
+  position: absolute;
+
+}
+.hero-block-about {
+  position: absolute;
+
 }
 .lots {
   display: flex;
@@ -48,8 +63,11 @@ h2 {
   font-size: 22px;
   line-height: 120%;
   text-transform: uppercase;
-  
-}.
+}
+p {
+
+}
+
 
 
 h3 {
