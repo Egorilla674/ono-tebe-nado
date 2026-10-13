@@ -11,17 +11,31 @@
 main {
   display: flex;
 }
-.hero-block {
-  display: flex;
-  
-}
-.container {
+.main-theme {
   display: flex;
   flex-direction: column;
+}
+.hero-block {
+  display: flex;
+  width: 10%;
+  
+  
+}
+.lots {
+  display: flex;
+  flex-direction: column;
+  
   align-items: flex-start;
 }
+.lots-list {
+  display: flex;
+  justify-content: space-between;
+  
 
-
+}
+.container-title {
+  text-decoration: underline;
+}
 h1 {
   font-weight: 700;
   font-size: 40px;
@@ -35,10 +49,8 @@ h2 {
   line-height: 120%;
   text-transform: uppercase;
   
-}
-.container-title {
-  text-decoration: underline;
-}
+}.
+
 
 h3 {
   font-weight: 700;
