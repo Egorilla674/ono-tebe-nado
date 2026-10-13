@@ -4,26 +4,29 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
+  border: 1px solid red;
   
 }
 
 main {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-
 }
-.lots-block {
+.hero-block {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.hero-block-text {
+  position: absolute;
+}
+.container {
   display: flex;
   flex-direction: column;
 }
-.lots-block title {
-  text-decoration: underline;
-}
+
 
 h1 {
-  
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
@@ -34,9 +37,12 @@ h2 {
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
+  text-transform: uppercase;
   
 }
-
+.container-title {
+  text-decoration: underline;
+}
 
 h3 {
   font-weight: 700;
