@@ -17,19 +17,18 @@ main {
 
 }
 
-.hero-block {
-  font-weight: 700;
-  font-style: bold;
-  font-size: 100px;
-  text-transform: Uppercase;
-
+.lots-block ul {
+  display:flex;
+  justify-content: space-between;
 }
 
+.lots-block-title {
+  text-decoration: underline;
+}
 
 h1 {
   
   font-weight: 700;
-  font-style: bold;
   font-size: 40px;
   text-transform: Uppercase;
 
@@ -37,28 +36,18 @@ h1 {
 
 h2 {
   font-weight: 700;
-  font-style:bold;
   font-size: 22px;
   line-height: 120%;
+  
 }
+
+
 h3 {
   font-weight: 700;
-  font-style:bold;
   font-size: 22px;
   line-height: 120%; 
 }
-h4 {
-  font-weight: 700;
-  font-style:bold;
-  font-size: 22px;
-  line-height: 120%;
-}
-h5 {
-  font-weight: 700;
-  font-style:bold;
-  font-size: 22px;
-  line-height: 120%;
-}
+
 header {
   display: flex;
   justify-content: space-between;
