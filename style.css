@@ -123,6 +123,8 @@ margin-top: 120px;
   align-items: center;
   padding-top: 133px;
   padding-left: 359px;
+  position: relative;
+
   
   
   
@@ -142,7 +144,7 @@ font-size: 40px;
 line-height: 100%;
 letter-spacing: 0%;
 text-transform: uppercase;
-align-self: flex-start;
+
 
 
    
