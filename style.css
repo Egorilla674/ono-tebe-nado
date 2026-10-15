@@ -4,10 +4,14 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */ */
   
 }
-
+.container {
+  width: 1280px; 
+  margin: 0 auto;
+  
+}
 main {
   display: flex;
   
@@ -28,28 +32,108 @@ main {
   height: auto;
   
 }
-.hero-block-text {
-  position: absolute;
 
-}
-.hero-block-about {
-  position: absolute;
+  
 
-}
 .lots {
   display: flex;
   flex-direction: column;
-  
+  gap: 40px;
   align-items: flex-start;
+}
+.lots-heading {
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+
 }
 .lots-list {
   display: flex;
   justify-content: space-between;
+  width: 100%;
   
 
 }
-.container-title {
+.lot-item {
+  position: relative;
+ 
+}
+
+.lots-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: flex-start;
+  position: absolute;
+  height: 100%;
+  color: white;
+  padding: 40px;
+  z-index: 100000000000000;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0%;
+
+}
+.lots-item-image {
+  height: 596px;
+  width: 334px;
+  filter: brightness(50%);
+}
+.lots-title {
   text-decoration: underline;
+}
+.lots-link {
+font-weight: 400;
+font-style: normal;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-decoration: underline;
+}
+.about {
+display: flex;
+align-items: center;
+gap: 40px;
+
+
+
+
+}
+.about-logo {
+  display:  flex;
+
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+
+
+}
+.about-heading {
+font-weight: 700;
+font-style: normal;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+
+   
+}
+.about-content-text {
+font-weight: 400;
+font-style: normal;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0%;
+
+  
 }
 h1 {
   font-weight: 700;
@@ -64,6 +148,11 @@ h2 {
   line-height: 120%;
   text-transform: uppercase;
 }
+.lots-heading, .lots-link {
+  margin-left: 40px;
+}
+
+
 p {
 
 }
@@ -81,6 +170,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  
+  
 }
 
 .nav-list {
@@ -115,14 +206,26 @@ footer {
   padding: 20px;
 }
 .menu-list {
+  list-style-type: none;
 
 }
-.menu-list-item-underline {
+.menu-adress {
+  text-decoration: underline;
+}
+.menu-list-item{
   text-decoration: underline;
 
 }
-.social-list{
+.social-list {
   display: flex;
   align-items: center;
   gap: 20px;
+  list-style-type: none;
+
+}
+.nav-list {
+  list-style-type: none;
+}
+.adress-list-item {
+  list-style-type: none;
 }
