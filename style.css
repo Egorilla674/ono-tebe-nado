@@ -4,11 +4,11 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  border: 1px solid red; */
+  /* border: 1px solid red; */
   
 }
 .container {
-  width: 1280px; 
+  width: 1100px; 
   margin: 0 auto;
 
   
@@ -97,15 +97,11 @@ letter-spacing: 0%;
 text-decoration: underline;
 }
 .about {
-display: flex;
-align-items: center;
-gap: 40px;
-margin-top: 120px;
-
-
-
-
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 120px;
 }
 .about-logo {
   display:  flex;
@@ -113,52 +109,40 @@ margin-top: 120px;
   margin-left: 47px;
   align-self: flex-start;
   
-  
 
 
 }
 .about-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding-top: 133px;
-  padding-left: 359px;
+  /* padding-left: 359px; */
+  width: 639px;
   position: relative;
-
-  
-  
-  
-  
-
-
- 
+  gap: 80px;
 
 
 }
 .about-heading {
-display: flex;
-margin-bottom: 80px;
-font-weight: 700;
-font-style: normal;
-font-size: 40px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: uppercase;
-
-
-
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
    
 }
 .about-content-text {
-display: flex;
-flex-direction: column;
-gap: 20px;
-font-weight: 400;
-font-style: normal;
-font-size: 20px;
-line-height: 24px;
-letter-spacing: 0%;
-margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-bottom: 80px;
 
 
 
@@ -240,9 +224,8 @@ footer {
 }
 .menu-list {
   list-style-type: none;
-  margin-bottom:
-
 }
+
 .menu-adress {
   text-decoration: underline;
   
